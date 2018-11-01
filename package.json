@@ -1,0 +1,14 @@
+{
+  "name": "ijn-ayanami",
+  "version": "1.0.0",
+  "description": "self bot to display my mobile game status on mobile discord app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IJN Ayanami",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
