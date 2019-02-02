@@ -148,7 +148,7 @@ bot.on("message", async message => {
 	
 	if(cmd === `${prefix}device-detect`){
 		if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.send("Invalid User Permissions!!");
-		return message.channel.send("🖥 Linux Mint 18.3 Sylvia [MATE 32bit] i836x PC Detected 🖥. Mobile game state will not be traced ⚠");
+		return message.channel.send("📱 Samsung Galaxy J3 Luna PRO Detected [Android 1.7.2] 📱. Mobile game states will be traced and displayed on my status ⚠");
 	}
 	
 	if(cmd === `${prefix}status`){
