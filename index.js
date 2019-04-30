@@ -6,7 +6,7 @@ const bot = new Discord.Client({disableEveryone: true});
 bot.on("ready", async () => {
 	console.log(`${bot.user.username} is online on ${bot.guilds.size} servers!`);
 	bot.user.setActivity("アズールレーン", {type: "PLAYING"});
-	bot.user.setStatus('dnd');
+	bot.user.setStatus('online');
 });
 
 bot.on("guildMemberAdd", async member => {
